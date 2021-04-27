@@ -21,6 +21,7 @@ requirements:
     - ctypesgen >=1.0.2
   host:
     - cm >=9.0.1
+    - ctypesgen >=1.0.2
     - python
   run:
     - cm >=9.0.1
