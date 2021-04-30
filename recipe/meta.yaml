@@ -7,7 +7,7 @@ package:
 
 source:
    url: http://software.igwn.org/lscsoft/source/{{ name }}-{{ version }}.tar.gz
-   sha256: fe2c903b7bf5dfb72cf5ec163f6b934a4af0515075654d7dfd29d568c985f9ee
+   sha256: c6c69f3ceaab753a2f4281c6b11d22d46b4154b7bb55df365b6bbfe54d9ade99
 
 build:
   number: 1
