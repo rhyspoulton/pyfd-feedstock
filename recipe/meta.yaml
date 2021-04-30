@@ -10,7 +10,7 @@ source:
    sha256: fe2c903b7bf5dfb72cf5ec163f6b934a4af0515075654d7dfd29d568c985f9ee
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
 
 requirements:
@@ -21,6 +21,7 @@ requirements:
     - ctypesgen >=1.0.2
   host:
     - cm >=9.0.1
+    - ctypesgen >=1.0.2
     - python
   run:
     - cm >=9.0.1
