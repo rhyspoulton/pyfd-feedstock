@@ -1,5 +1,5 @@
 {% set name = "pycm" %}
-{% set version = "7.5.3" %}
+{% set version = "7.5.4" %}
 
 package:
    name: "{{ name }}"
@@ -7,7 +7,7 @@ package:
 
 source:
    url: http://software.igwn.org/lscsoft/source/{{ name }}-{{ version }}.tar.gz
-   sha256: 19c84db4aa034734ce0655d8ca9036d9c02d916357869b5bd4e79a86c0e9960a
+   sha256: 73ef3cfae95c065e36e71d3b99497c1563b054934fe91889724377ba35fb7965
 
 build:
   number: 0
