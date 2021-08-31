@@ -1,5 +1,5 @@
 {% set name = "pyfd" %}
-{% set version = "4.5.6" %}
+{% set version = "4.5.7" %}
 
 package:
    name: "{{ name }}"
@@ -7,7 +7,7 @@ package:
 
 source:
    url: http://software.igwn.org/lscsoft/source/{{ name }}-{{ version }}.tar.gz
-   sha256: 8a3dc13a5726cf8fd700311632f4ceb754b99dcf4f90bbd8b77d87119af826a8
+   sha256: acb5226a60a33645780669fe1c0cca58d4e56aab8397c7e6c794d780f6096732
 
 build:
   run_exports:
